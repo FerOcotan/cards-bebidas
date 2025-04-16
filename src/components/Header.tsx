@@ -18,7 +18,6 @@ export default function Header() {
 
 
     //consultar las categorias al cargar el componente
-
     useEffect(() => {
         fetchCategories()
     }, [])
