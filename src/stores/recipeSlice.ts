@@ -1,5 +1,5 @@
-import { StateCreator } from "zustand";
-import { getCategories, getRecipeById, getRecipes } from "../services/RecipeService";
+import { StateCreator } from "zustand"
+import { getCategories, getRecipeById, getRecipes } from "../services/RecipeService"
 import type { Categories, Drink, Drinks, Recipe, SearchFilter } from "../types"
 
 
